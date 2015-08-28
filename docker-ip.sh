@@ -5,7 +5,7 @@ docker-ip() {
         else
             CID=$(echo "$line" | awk '{print $1}');
             IP=$(docker inspect -f "{{ .NetworkSettings.IPAddress }}" "$CID");
-            printf "${IP}\t${line}\n"
+            printf "%s\t%s\n" "${IP}" "${line}"
         fi
     done;
 }
