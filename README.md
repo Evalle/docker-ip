@@ -2,11 +2,11 @@
 
 ***Instructions:*** 
 
-1) Add this function to your ```~/.bashrc``` or ```~/.bash_profile```;
+1) Add this function to your ```~/.bashrc```, ```~/.bash_profile``` or ```~/.profile```;
 
-2) run ```# source ~/.bashrc``` or ```# source ~/.bash_profile``` to apply your changes;
+2) run ```source ~/.bashrc```, ```source ~/.bash_profile``` or ```source ~/.profile``` to apply your changes;
 
-3) run ```# docker-ip``` to list ip-addresses of all your containers.
+3) run ```docker-ip``` to list ip-addresses of all your containers.
 
 ***Example:***
 ```
