@@ -1,4 +1,4 @@
-####This is a small bash function that can be useful if you want to find all your container's ip addresses.
+####This is a small bash function that can be useful if you want to find all your containers ip addresses.
 
 ***Instructions:*** 
 
@@ -6,7 +6,7 @@
 
 2) run ```source ~/.bashrc```, ```source ~/.bash_profile``` or ```source ~/.profile``` to apply your changes;
 
-3) run ```docker-ip``` to list ip-addresses of all your containers.
+3) run ```docker-ip``` command to list ip addresses of all your containers.
 
 ***Example:***
 ```
